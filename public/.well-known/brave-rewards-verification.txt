@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: hackerspoint-b6e75.web.app
+Token: 1cc9000fd832e9a93d2b802edfea399f9827d5433a3cedfad50c0c7f25b3fb18

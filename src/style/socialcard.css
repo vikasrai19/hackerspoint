@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+*{
+    font-family: 'Langar', sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+h2.social-title{
+    font-size: 20px;
+}
+
+.social-card-container{
+    margin: 10px 0;
+    padding: 15px 0;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.follow-me{
+    padding: 5px 10px;
+    border: 0px solid blue;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+button.follow-me:hover{
+    color:white;
+    background-color: rgba(0,0,0,0.85);
+}
+
+@media(max-width: 600px){
+
+    .social-card-container{
+        width: 50vw;
+    }
+}

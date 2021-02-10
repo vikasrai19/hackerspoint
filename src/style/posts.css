@@ -1,0 +1,23 @@
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.blog-post-section{
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post-row{
+    display: flex;
+    justify-content: space-evenly   ;
+    padding: 0 auto;
+}
+
+@media(max-width: 600px){
+    .blog-post-row{
+        display: flex;
+        flex-direction: column;
+    }
+}

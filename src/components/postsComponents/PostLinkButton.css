@@ -1,0 +1,25 @@
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 10px
+}
+
+.btn{
+    color:var(--color1);
+    background-color:var(--color2);
+    border: 2px solid var(--color1);
+    border-radius: 2px;
+    padding: 10px 15px;
+    transition: 0.6s;
+    position: relative;
+    overflow:hidden;
+
+    --color1: black;
+    --color2: white;
+}
+
+.hover-btn:hover{
+    background-color: var(--color1);
+    color: var(--color2);
+}
