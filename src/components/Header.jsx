@@ -51,7 +51,7 @@ function Header(){
     }
 
     return(
-        <>
+        <div>
             <div id="header" className="header">
                 <div id="title" className="title">
                     <div className="menu-btn" id="menu-btn">
@@ -77,7 +77,7 @@ function Header(){
                 <Route exact path="/artificial-intelligence" component={Post4} />
                 <Redirect to="/" />
             </Switch>
-        </>
+        </div>
     );
 }
 
